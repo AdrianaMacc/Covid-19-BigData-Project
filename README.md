@@ -49,3 +49,4 @@ where:
 - C1_itemset and C2_itemset are the two clusters of seven mutations that pass the threshold. 
 - jaccard_index is the value of the Jaccard similarity calculated on the two clusters.
 
+![alt text](https://github.com/AdrianaMacc/Covid-19-BigData-Project/blob/main/example-table.png)
