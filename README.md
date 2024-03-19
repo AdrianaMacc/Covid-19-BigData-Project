@@ -39,3 +39,13 @@ Each dataset file contains a matrix where each row corresponds to a patient affe
   <img src="https://github.com/AdrianaMacc/Covid-19-BigData-Project/blob/main/similarmutationgraph.png" width="500" title="Graph Example">
 </p>
 In the image above a similar mutations graph for a specific clade. 
+
+The resulting dataframe has the following format:
+
+[**Clade 1**, **Clade 2**, **C1_itemset**, **C2_itemset**, **jaccard_index**]
+
+where:
+- Clade1 and Clade 2 are the clades to which the similar clusters belong. 
+- C1_itemset and C2_itemset are the two clusters of seven mutations that pass the threshold. 
+- jaccard_index is the value of the Jaccard similarity calculated on the two clusters.
+
