@@ -34,3 +34,8 @@ Each dataset file contains a matrix where each row corresponds to a patient affe
 - **Step seven**: **Arena3D** graphs visualization.
 - **Step eight**: **A-Priori Association Rules** algorithm in order to search for clusters of three mutations frequently associated with others four.
 - **Step nine**: Find the similar clusters of mutations using a Jaccard threshold of 0.75.
+
+<p align="left">
+  <img src="https://github.com/AdrianaMacc/Covid-19-BigData-Project/blob/main/similarmutationgraph.png" width="500" title="Graph Example">
+</p>
+In the image above a similar mutations graph for a specific clade. 
